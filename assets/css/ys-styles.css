@@ -1,0 +1,112 @@
+#banner{
+
+}
+
+#banner .image{
+    background-color: floralwhite;
+    border: solid 6px #009EFD;
+}
+
+.ys-content-iniciales{
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+.ys-content-iniciales label{
+    display: inline-block;
+    font-size: 639%;
+    font-weight: 900;
+    position: absolute;
+}
+
+.ys-content-iniciales label:nth-of-type(1){
+    color: #003a88;
+    left: 21%;
+    top: 33%;
+}
+
+.ys-content-iniciales label:nth-of-type(2){
+    color: #353532;
+    left: 54%;
+    top: 60%;
+}
+
+.spotlight.style1 .content{
+    border-color: #0043FF;
+}
+
+header.major:after{
+    background: #003a88 !important;
+}
+
+/*ys*/
+.ys-seccion{
+
+}
+.ys-seccion-serv1 header p,
+.ys-seccion-serv2 header p{
+    font-size: 1em;
+    margin-bottom: 0px;
+}
+
+#four header h2{
+    margin-bottom: 6px;
+}
+
+#four header p{
+    font-size: 1em;
+}
+
+#four header p label{
+    line-height: 9px;
+    font-size: 1.25em;
+    margin-bottom: 0px;
+}
+
+/*---*/
+#ys-contentform {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.2);
+    padding: 2em;
+}
+.content-form-contacto .ys-dupla{
+    margin-bottom: 1em;
+}
+.content-form-contacto .ys-dupla label{
+    display: block;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.content-form-contacto .ys-content-btn #ys-enviar
+{
+    background-color: #003A84;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 0.81em;
+    padding: 0.25em 4.5em;
+}
+#ys-contentform .ys-msjConfirmacion{
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFF;
+    display: none;
+    padding: 1em;
+    text-align: center;
+}
+
+@media screen and (max-width: 736px){
+    #titleBar .toggle:before{
+        background-color: #009EFD;
+    }
+    .ys-content-iniciales label{
+        font-size: 540%;
+    }
+    .ys-content-iniciales label:nth-of-type(1){
+        left: 6%;
+    }
+    .ys-content-iniciales label:nth-of-type(2){
+        left: 48%;
+    }
+}
+/*---*/
